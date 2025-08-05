@@ -1,7 +1,7 @@
--> streamlit
--> plotly
--> numpy
--> pandas
--> scikitlearn
--> joblib
--> matplotlib
+streamlit
+plotly
+numpy
+pandas
+scikitlearn
+joblib
+matplotlib
