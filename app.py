@@ -12,7 +12,7 @@ st.markdown("👩‍💻 Predict your expected salary based on company experienc
 
 # Cute animated gif
 st.image("https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExYzdoZDdhdnJvcjVoOHM5ZjcyNnQxY3JqOGUyd2N6ajZuaDNyb2o1aSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/xm4uYTatdDtbmCsBCw/giphy.gif",
-         caption="Let's predict!", use_column_width=True)
+         caption="Let's predict!", output_format="auto")
 
 # Divider
 st.divider()
@@ -62,4 +62,5 @@ if predict_button:
     st.plotly_chart(fig, use_container_width=True)
 
 else:
+
     st.info("Enter details and press the **Predict Salary** button.")
